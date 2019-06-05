@@ -40,7 +40,7 @@
 
 上下键移动，选择advanced options  移动到ssh选项，打开它。  
 电脑下载[putty](https://pan.baidu.com/s/12iZLVejW3qVkSnXx4DwZdw)（ 提取码：r6nt ），advanced IP Scanner
-~~（之前的链接失效了，然后自己也不需要，就不发了）~~这两个软件。  
+~~（之前的链接失效了，然后自己也不需要，就不发了）~~。  
 - 打开Advanced IP Scanner,按右上角的按钮，绿色扫面按钮
 等待几秒，在下面的列表里，标有raspbian （或者是raspberry Pi）的那一栏目
 你就能看到树莓派的IP了  
