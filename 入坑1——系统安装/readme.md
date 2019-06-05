@@ -35,7 +35,7 @@
 **将烧制好的SD卡插到树莓派上，用HDMI线连接显示器，连接电源。**
 进入系统后右上角有WiFi图标，点击连接，或直接通过网线连接树莓派。
 打开指令窗口，输入
->>> sudo raspi-config  
+>> sudo raspi-config  
 上下键移动，选择advanced options  移动到ssh选项，打开它。
 电脑下载[putty](https://pan.baidu.com/s/12iZLVejW3qVkSnXx4DwZdw)（ 提取码：r6nt ），advanced IP Scanner（之前的链接失效了，~~然后自己也不需要，~~就不发了）这两个软件。  
 点开”Advanced IP Scanner“,按右上角的按钮，绿色扫面按钮~~
