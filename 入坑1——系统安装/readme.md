@@ -22,5 +22,28 @@
 [WIn32DIsklmager](https://pan.baidu.com/s/12Gq_xQKLaxvxUzjFtdYU1g"百度网盘")(提取码：2g4w)    
 ![win](https://github.com/liytgy/raspberry/blob/master/%E5%85%A5%E5%9D%911%E2%80%94%E2%80%94%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/win32.PNG)
 #### 格式化SD卡
+如果原来的sd卡有东西的话，可以直接进行格式化。这里需要说明的是，安装树莓派系统后在电脑U盘那里右键格式化是没有用的，需要下载专门工具进行格式化。我这里用的是SDFormatter这款工具。  
+[百度网盘](https://pan.baidu.com/s/1a2g0OZAt_hOWgsk0prqLIw)(提取码：abfa)
 #### 烧制系统
-## 上电开机
+打开win32diskmager，点击文件夹的图标，找到你下载的镜像路径，选择
+然后！在旁边选择你读卡器的盘符！记住！不要选错！不要选错！
+选择之前最好先把其他的USB设备移除！
+然后点击“Write”，然后，等待系统烧制成功提示出现。
+![烧制系统](https://github.com/liytgy/raspberry/blob/master/%E5%85%A5%E5%9D%911%E2%80%94%E2%80%94%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/%E7%83%A7%E5%88%B6.png)
+## 使用并连接树莓派
+**树莓派上电**
+**将烧制好的SD卡插到树莓派上，用HDMI线连接显示器，连接电源。**
+进入系统后右上角有WiFi图标，点击连接，或直接通过网线连接树莓派。
+打开指令窗口，输入
+>>> sudo raspi-config  
+上下键移动，选择advanced options  移动到ssh选项，打开它。
+电脑下载[putty](https://pan.baidu.com/s/12iZLVejW3qVkSnXx4DwZdw)（ 提取码：r6nt ），advanced IP Scanner（之前的链接失效了，~~然后自己也不需要，~~就不发了）这两个软件。  
+点开”Advanced IP Scanner“,按右上角的按钮，绿色扫面按钮~~
+等待几秒，在下面的列表里，标有raspbian （或者是raspberry Pi）的那一栏目~~
+你就能看到树莓派的IP了~~
+树莓派桌面右上角有WiFi的标志鼠标停留在那里会显示出IP地址的，或者打开命令终端输入"ifconfig"查看IP地址。
+然后，打开Putty，填入树莓派IP点击连接,
+过一会后就会提示Login in：的提示
+你输入”pi“然后按回车键
+它就会提示你输入密码，初始密码为:”raspberry”（这里需要强调的是，树莓派在远程连接输入密码时是不会显示内容的，所以尽管输入就好~~（当时年纪小不懂事，一直以为自己的键盘坏了，，，直到翻看了某一篇博客才知道）~~）
+-
