@@ -62,4 +62,4 @@ deb http://mirrors.ustc.edu.cn/archive.raspberrypi.org/ jessis mainui
 
 > sudo apt-get update
 >
-> [sudo apt-get upgrade](https://www.jianshu.com/p/e753cf862d2d)
+> sudo apt-get upgrade
